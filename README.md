@@ -1,4 +1,4 @@
-# berlip_MS — Monitor de Rede Profissional
+# berlip_MS . Monitor de Rede Profissional
 
 Aplicativo desktop multiplataforma para monitoramento de qualidade de conexão de rede.
 
