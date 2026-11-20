@@ -6,18 +6,6 @@ Aplicativo desktop multiplataforma para monitoramento de qualidade de conexão d
 
 ---
 
-## Capturas de tela
-
-> Espaço reservado para capturas. Após executar o aplicativo, substitua pelos prints reais.
-
-| Dashboard | Monitoramento | Ferramentas |
-|-----------|---------------|-------------|
-| ![Dashboard](docs/screenshots/dashboard.png) | ![Monitor](docs/screenshots/monitoring.png) | ![Tools](docs/screenshots/tools.png) |
-
-*(Os arquivos de imagem ainda não existem no repositório — adicione-os em `docs/screenshots/`.)*
-
----
-
 ## Funcionalidades
 
 ### Dashboard
