@@ -1,0 +1,23 @@
+# Maintainer: berlip_MS contributors
+pkgname=berlip-ms
+pkgver=1.0.0
+pkgrel=1
+pkgdesc="Professional network monitor (latency, jitter, packet loss, speed, tools)"
+arch=('any')
+url="https://github.com/YOUR_USER/berlip_MS"
+license=('MIT')
+depends=('python' 'python-pyside6' 'python-pyqtgraph' 'python-psutil' 'python-numpy')
+makedepends=('python-build' 'python-installer' 'python-wheel')
+source=("$pkgname-$pkgver.tar.gz")
+sha256sums=('SKIP')
+
+build() {
+  cd "$srcdir/berlip_MS-$pkgver"
+  python -m build --wheel --no-isolation
+}
+
+package() {
+  cd "$srcdir/berlip_MS-$pkgver"
+  python -m installer --destdir="$pkgdir" dist/*.whl
+  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}

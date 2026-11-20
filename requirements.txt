@@ -1,0 +1,20 @@
+# berlip_MS - Network Monitor
+# Core dependencies
+PySide6>=6.6.0
+pyqtgraph>=0.13.3
+psutil>=5.9.0
+numpy>=1.26.0
+
+# Optional but recommended for speed tests
+# speedtest-cli is not ideal; we'll implement a lightweight approach
+
+# Testing
+pytest>=7.4.0
+pytest-qt>=4.2.0
+
+# Packaging
+# pyinstaller is used in CI / packaging scripts, not always required at runtime
+pyinstaller>=6.0.0
+
+# Dev
+# black, ruff optional
