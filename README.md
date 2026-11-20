@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/screenshots/dashboard.png" width="90%" alt="Dashboard">
+  <img src="docs/screenshots/dashboard.gif" width="90%" alt="Dashboard">
 </p>
 
 <p align="center">
@@ -44,7 +44,7 @@
 | **◈ Configurações** | Tema escuro, PT-BR, limiares e retenção do histórico |
 
 <p align="center">
-  <img src="docs/screenshots/tools.png" width="90%" alt="Ferramentas">
+  <img src="docs/screenshots/tools.jpg" width="90%" alt="Ferramentas">
 </p>
 
 ---
