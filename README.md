@@ -2,7 +2,7 @@
 ### ✦ MONITOR DE REDE PROFISSIONAL
 
 <p align="center">
-  **◈ Monitore. Analise. Otimize. ◈**
+  ◈ Monitore. Analise. Otimize. ◈
   
   Aplicativo desktop para **Windows e Linux** que monitora a qualidade da sua conexão em tempo real.
   
