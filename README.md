@@ -28,7 +28,7 @@
 - ◉ **Interface Dark** minimalista e intuitiva.
 
 <p align="center">
-  <img src="docs/screenshots/monitoring.gif" width="90%" alt="Monitoramento">
+  <img src="docs/screenshots/monitoring.gif" width="80%" alt="Monitoramento">
 </p>
 
 ---
@@ -44,7 +44,7 @@
 | **◈ Configurações** | Tema escuro, PT-BR, limiares e retenção do histórico |
 
 <p align="center">
-  <img src="docs/screenshots/tools.jpg" width="90%" alt="Ferramentas">
+  <img src="docs/screenshots/tools.jpg" width="80%" alt="Ferramentas">
 </p>
 
 ---
