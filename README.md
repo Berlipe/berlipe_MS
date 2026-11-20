@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/screenshots/dashboard.gif" width="90%" alt="Dashboard">
+  <img src="docs/screenshots/dashboard.gif" width="75%" alt="Dashboard">
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@
 - ◉ **Interface Dark** minimalista e intuitiva.
 
 <p align="center">
-  <img src="docs/screenshots/monitoring.gif" width="80%" alt="Monitoramento">
+  <img src="docs/screenshots/monitoring.gif" width="75%" alt="Monitoramento">
 </p>
 
 ---
@@ -44,7 +44,7 @@
 | **◈ Configurações** | Tema escuro, PT-BR, limiares e retenção do histórico |
 
 <p align="center">
-  <img src="docs/screenshots/tools.jpg" width="80%" alt="Ferramentas">
+  <img src="docs/screenshots/tools.jpg" width="75%" alt="Ferramentas">
 </p>
 
 ---
