@@ -49,42 +49,124 @@
 
 ---
 
-## ⇩ Instalação rápida
+## ⇩ Instalação
 
-**① Clone o repositório**
+O berlip_MS pode ser instalado no **Windows e Linux**. Siga as instruções correspondentes ao seu sistema operacional.
+
+### ◈ Requisitos
+
+- Python **3.12 ou superior**.
+- Git (para clonar o repositório).
+- Conexão com a internet durante a instalação das dependências.
+
+### 🪟 Windows
+
+**① Instale o Python**
+
+Baixe o Python 3.12 ou superior pelo site oficial:
+
+https://www.python.org/downloads/windows/
+
+Durante a instalação, habilite a opção **Add Python to PATH**.
+
+**② Baixe o projeto**
+
+Abra o PowerShell e execute:
+
+```powershell
+git clone https://github.com/SEU_USUARIO/berlip_MS.git
+cd berlip_MS
+```
+
+**③ Crie o ambiente virtual**
+
+```powershell
+py -3.12 -m venv .venv
+```
+
+**④ Instale as dependências**
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install --upgrade pip
+.\.venv\Scripts\python.exe -m pip install -r requirements-runtime.txt
+```
+
+**⑤ Inicie o aplicativo**
+
+```powershell
+.\.venv\Scripts\python.exe main.py
+```
+
+**Próximas inicializações:** basta entrar na pasta do projeto e executar:
+
+```powershell
+.\.venv\Scripts\python.exe main.py
+```
+
+### 🐧 Linux
+
+**① Instale os requisitos do sistema**
+
+Em distribuições baseadas em Debian/Ubuntu:
+
+```bash
+sudo apt update
+sudo apt install python3 python3-venv python3-pip git
+```
+
+Em Arch Linux:
+
+```bash
+sudo pacman -S python python-pip git
+```
+
+**② Baixe o projeto**
 
 ```bash
 git clone https://github.com/SEU_USUARIO/berlip_MS.git
 cd berlip_MS
 ```
 
-**② Crie o ambiente virtual**
+**③ Crie o ambiente virtual**
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 ```
 
-**③ Ative o ambiente**
+**④ Ative o ambiente virtual**
 
 ```bash
-# Linux
 source .venv/bin/activate
-
-# Windows
-.venv\Scripts\activate
 ```
 
-**④ Instale as dependências**
+**⑤ Instale as dependências**
 
 ```bash
-pip install -r requirements.txt
+python -m pip install --upgrade pip
+python -m pip install -r requirements-runtime.txt
 ```
 
-**⑤ Execute o aplicativo**
+**⑥ Inicie o aplicativo**
 
 ```bash
 python main.py
 ```
+
+**Próximas inicializações:** entre na pasta do projeto, ative o ambiente virtual e execute:
+
+```bash
+source .venv/bin/activate
+python main.py
+```
+
+---
+
+## ◈ Solução de problemas
+
+- **Python não encontrado:** confira se o Python está instalado e disponível no PATH.
+- **Erro ao criar o ambiente virtual:** verifique se o pacote `python3-venv` está instalado no Linux.
+- **Erro ao instalar dependências:** confira sua conexão com a internet e a versão do Python.
+- **Aplicativo não abre:** execute pelo terminal para visualizar a mensagem de erro.
 
 ---
 
